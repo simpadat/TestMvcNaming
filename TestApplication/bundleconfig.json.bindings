@@ -1,0 +1,2 @@
+///<binding AfterBuild='wwwroot/js/site.min.js' />
+produceoutput=false

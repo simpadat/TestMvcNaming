@@ -1,0 +1,16 @@
+﻿
+@model Grade
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="content">
+    @Html.React("Grade",
+            new
+            {
+                data = Model
+            })
+</div>
+
+@Html.ReactInitJavaScript(clientOnly: true)
